@@ -53,3 +53,18 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
+html {
+	font-family: sans-serif;
+}
+
+header {
+	background-color: darkorange;
+	color: white;
+	padding: 2rem 0;
+}
+
+header h1 {
+	font-size: 3.5rem;
+	display: inline-block;
+	margin: 0 2rem 0 0;
+}
