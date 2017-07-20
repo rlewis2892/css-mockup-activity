@@ -89,3 +89,12 @@ section:nth-child(2) {
 	background: lightgray;
 	color: #555;
 }
+
+/*****************************************************
+* Footer Styles
+******************************************************/
+footer {
+	background: black;
+	color: lightgray;
+	padding: 1rem 0;
+}
