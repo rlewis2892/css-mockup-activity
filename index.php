@@ -84,6 +84,37 @@
 					</div><!--/.container-->
 				</section>
 
+				<!-- CONTACT FORM -->
+				<section>
+					<div class="container">
+						<h2>Contact Me!</h2>
+						<form>
+							<div>
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name">
+							</div>
+
+							<div>
+								<label for="emailEmail">Email</label>
+								<input type="email" name="email" id="email">
+							</div>
+
+							<div>
+								<label for="subject">Subject</label>
+								<input type="text" name="subject" id="subject">
+							</div>
+
+							<div>
+								<label for="message">Message</label>
+								<textarea name="messaage" id="message" cols="30" rows="10" maxlength="1000"></textarea>
+							</div>
+
+							<button type="reset">Reset</button>
+							<button type="submit">Send!</button>
+						</form>
+					</div>
+				</section>
+
 			</main>
 		</div><!--/.sfooter-content-->
 
