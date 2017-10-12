@@ -24,23 +24,21 @@
 				<!-- INSTRUCTIONS PANEL -->
 				<section>
 					<div class="container">
+						<img src="images/welcome.gif" alt="welcome to my homepage">
+
 						<div class="instructions">
-							<div class="pull-left">
-								<h2>Instructions</h2>
-								<ol>
-									<li>
-										Fork and clone the following GitHub repository, and create a new project and deployment.<br>
-										<a href="https://github.com/rlewis2892/css-mockup-activity" target="_blank">https://github.com/rlewis2892/css-mockup-activity</a>
-									</li>
-									<li>Edit the stylesheet, adding CSS to make the page look like the mockup. <a href="images/mockup.jpg" target="_blank">Mockup Image</a></li>
-									<li>Have fun! The solution will be demonstrated in class. <small>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</small></li>
-								</ol>
-							</div>
-							<div class="pull-right">
-								<img src="images/captain-janeway.png" alt="captain janeway" />
-							</div>
-							<div class="clearfix"></div>
+							<h2>Instructions</h2>
+							<ol>
+								<li>
+									Fork and clone the following GitHub repository, and create a new project and deployment.<br>
+									<a href="https://github.com/rlewis2892/css-mockup-activity" target="_blank">https://github.com/rlewis2892/css-mockup-activity</a>
+								</li>
+								<li>Edit the stylesheet, adding CSS to make the page look like the mockup. <a href="images/mockup.jpg" target="_blank">Mockup Image</a></li>
+								<li>Have fun! The solution will be demonstrated in class. <small>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</small></li>
+							</ol>
 						</div><!--/.instructions-->
+						<img src="images/captain-janeway.png" alt="captain janeway" />
+						<div class="clearfix"></div>
 					</div><!--/.container-->
 				</section>
 
@@ -67,7 +65,7 @@
 							</tr>
 							<tr>
 								<td>Java</td>
-								<td>Linux Server</td>
+								<td>Kali Linux</td>
 								<td>Certified Ethical Hacker</td>
 							</tr>
 							<tr>
@@ -87,7 +85,7 @@
 				<!-- CONTACT FORM -->
 				<section>
 					<div class="container">
-						<h2>Contact Me!</h2>
+						<img src="images/red-stapler-50.png" alt="red stapler"><h2>Contact Me! I <3 to fix printers!</h2>
 						<form>
 							<div>
 								<label for="name">Name</label>
@@ -120,7 +118,7 @@
 
 		<footer>
 			<div class="container">
-				<h4>&copy; 2017 A USS Berners-Lee Production</h4>
+				<img src="images/at-sign.gif" alt="netscape Navigator"><h4>Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
 			</div>
 		</footer>
 	</body>
