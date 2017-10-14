@@ -53,127 +53,145 @@ body { width: 100%;}
 
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+*
+* HINT: You might want to be conversant with the following:
+* Shorthand syntax for padding, margin, and borders
+* Display property and values... and the differences between them.
+* The Box Model
+* Pseudo Classes
+* Attribute Selectors
 ******************************************************/
 
 /*****************************************************
 * Global Styles
 ******************************************************/
-html {
-	font-family: sans-serif;
+html, body {
+	font-family: Courier, monospace;
+}
+
+section {
+	padding: 4rem 0;
 }
 
 h2 {
 	margin-top: 0;
-	font-size: 2rem;
-}
-
-ol {
-	line-height: 1.5rem;
-	font-weight: bold;
-}
-
-.pull-left {
-	float: left;
-}
-
-.pull-right {
-	float: right;
 }
 
 /*****************************************************
 * Header Styles
 ******************************************************/
-
 header {
-	background-color: darkorange;
-	color: white;
-	padding: 2rem 0;
+	background-color: #333;
+	color: lime;
 }
 
 header h1 {
-	font-size: 3.5rem;
 	display: inline-block;
-	margin: 0 2rem 0 0;
+	margin-right: 2rem;
+	font-size: 3rem;
 }
 
 /*****************************************************
-* Main Content Styles
+* Welcome/Instructions Section Styles
 ******************************************************/
-
-section {
-	padding: 5rem 0;
+img[alt*="welcome"] {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 2rem;
 }
 
-/*****************************************************
-* Footer Styles
-******************************************************/
-footer {
-	background: black;
-	color: lightgray;
-	padding: 1rem 0;
-}
-
-/*****************************************************
-* Instructions Section Styles
-******************************************************/
-.instructions {
-	color: darkorange;
-	border: 3px solid;
+.instructions-wrapper {
+	border: 5px solid black;
 	padding: 2rem;
 }
 
-/*****************************************************
-* Instructions Section Styles
-******************************************************/
-.instructions img {
+.instructions-content {
+	float: left;
+	width: 50%;
+}
+
+img[alt*="janeway"] {
+	float: right;
 	width: 250px;
-	height: auto;
-	border: 3px solid lightgray;
 }
 
 /*****************************************************
-* Picard Section Styles
+* About Me Styles
 ******************************************************/
-section:nth-child(2) {
-	background: lightgray;
-	color: #555;
-	line-height: 1.5rem;
+.about-me {
+	background-color: blue;
+	color: #fff;
 }
 
-img[alt="captain picard"] {
-	width: 300px;
-	height: auto;
-	border: 3px solid white;
-	margin-right: 3rem;
+img[alt*="picard"]{
+	float: left;
+	width: 350px;
+	margin-right: 2rem;
+	border: 3px solid #fff;
 }
 
-section:nth-child(2) span {
-	color: black;
+.about-me span {
+	color: #ff0;
 	font-style: italic;
-	font-family: serif;
 	font-weight: bold;
 }
 
 /*****************************************************
 * $killz Section Styles
 ******************************************************/
-
-section:nth-child(3) h2 {
-	color: darkorange;
+section:nth-child(4) h2 {
 	text-align: right;
 }
 
 table {
-	color: white;
 	width: 100%;
-	text-align: left;
 }
 
-th, td {
-	background-color: darkorange;
+td, th {
+	color: lime;
 	padding: 1rem;
+	background-color: #333;
+	text-align: left;
 }
 
 /*****************************************************
 * Contact Form Styles
 ******************************************************/
+section:nth-child(5) {
+	background-color: #333;
+}
+
+.form-wrapper {
+	background-color: darkgreen;
+	color: lime;
+	padding: 2rem;
+}
+
+label {
+	display: block;
+	margin: 1rem 0 0.5rem 0;
+}
+
+input,
+textarea {
+	padding: 0.5rem 1rem;
+	width: 30%;
+}
+
+button {
+	background-color: lime;
+	padding: 0.5rem 2rem;
+	margin-top: 1rem;
+	border: none;
+	font-weight: bold;
+}
+
+/*****************************************************
+* Footer Styles
+******************************************************/
+footer {
+	background-color: #000;
+	color: white;
+	text-align: center;
+	padding: 1rem 0;
+}

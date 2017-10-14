@@ -12,113 +12,113 @@
 	<body class="sfooter">
 		<div class="sfooter-content">
 
+			<!-- HEADER -->
 			<header>
 				<div class="container">
-					<h1>Dylan McDonald</h1>
+					<h1>Dylan McDonald:~$</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
 				</div>
 			</header>
 
-			<main>
+			<!-- INSTRUCTIONS PANEL -->
+			<section>
+				<div class="container">
+					<img src="images/welcome.gif" alt="welcome to my homepage">
 
-				<!-- INSTRUCTIONS PANEL -->
-				<section>
-					<div class="container">
-						<img src="images/welcome.gif" alt="welcome to my homepage">
-
-						<div class="instructions">
+					<div class="instructions-wrapper">
+						<div class="instructions-content">
 							<h2>Instructions</h2>
 							<ol>
-								<li>
-									Fork and clone the following GitHub repository, and create a new project and deployment.<br>
-									<a href="https://github.com/rlewis2892/css-mockup-activity" target="_blank">https://github.com/rlewis2892/css-mockup-activity</a>
-								</li>
+								<li>Fork and clone the following GitHub repository, and create a new project and deployment.<br>
+									<a href="https://github.com/rlewis2892/css-mockup-activity" target="_blank">https://github.com/rlewis2892/css-mockup-activity</a></li>
 								<li>Edit the stylesheet, adding CSS to make the page look like the mockup. <a href="images/mockup.jpg" target="_blank">Mockup Image</a></li>
 								<li>Have fun! The solution will be demonstrated in class. <small>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</small></li>
 							</ol>
-						</div><!--/.instructions-->
+						</div>
 						<img src="images/captain-janeway.png" alt="captain janeway" />
 						<div class="clearfix"></div>
-					</div><!--/.container-->
-				</section>
+					</div><!--/.instructions-->
+				</div><!--/.container-->
+			</section>
 
-				<!-- SECTION ONE -->
-				<section>
-					<div class="container">
-						<img class="pull-left" src="images/stunning.jpg" alt="captain picard" />
-						<h2>A Day in the Life...</h2>
-						<p>Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I haven't changed those things, sir. Did you come here for something in particular or just general Riker-bashing? That might've been one of the shortest assignments in the history of Starfleet.</p>
-						<p>Hiss and stare at nothing then run suddenly away. Bare fangs at toy run hide in litter box until treats are fed toy mouse squeak roll over yet stare at the wall, play with food and get confused by dust. Chase dog then run away drink water out of the faucet for find a way to fit in tiny box. <span>Groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!</span></p>
-						<div class="clearfix"></div>
-					</div>
-				</section>
+			<!-- ABOUT ME -->
+			<section class="about-me">
+				<div class="container">
+					<img class="pull-left" src="images/stunning.jpg" alt="captain picard" />
+					<h2>A Day in the Life...</h2>
+					<p>Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I haven't changed those things, sir. Did you come here for something in particular or just general Riker-bashing? That might've been one of the shortest assignments in the history of Starfleet.</p>
+					<p>Hiss and stare at nothing then run suddenly away. Bare fangs at toy run hide in litter box until treats are fed toy mouse squeak roll over yet stare at the wall, play with food and get confused by dust. Chase dog then run away drink water out of the faucet for find a way to fit in tiny box. <span>Groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!</span></p>
+					<div class="clearfix"></div>
+				</div>
+			</section>
 
-				<!-- SECTION TWO -->
-				<section>
-					<div class="container">
-						<h2>Summary of Profe$$ional Skillz</h2>
-						<table>
-							<tr>
-								<th>Languages</th>
-								<th>Software</th>
-								<th>Other</th>
-							</tr>
-							<tr>
-								<td>Java</td>
-								<td>Kali Linux</td>
-								<td>Certified Ethical Hacker</td>
-							</tr>
-							<tr>
-								<td>PHP</td>
-								<td>Metasploit</td>
-								<td>Star Trek Trivia Champion</td>
-							</tr>
-							<tr>
-								<td>Klingon</td>
-								<td>Microsoft Office</td>
-								<td>Meme Master</td>
-							</tr>
-						</table>
-					</div><!--/.container-->
-				</section>
+			<!-- PROFESSIONAL SKILLZ -->
+			<section>
+				<div class="container">
+					<h2>Summary of Profe$$ional Skillz</h2>
+					<table>
+						<tr>
+							<th>Languages</th>
+							<th>Software</th>
+							<th>Other</th>
+						</tr>
+						<tr>
+							<td>Java</td>
+							<td>Kali Linux</td>
+							<td>Certified Ethical Hacker</td>
+						</tr>
+						<tr>
+							<td>PHP</td>
+							<td>Metasploit</td>
+							<td>Star Trek Trivia Champion</td>
+						</tr>
+						<tr>
+							<td>Klingon</td>
+							<td>Microsoft Office</td>
+							<td>Meme Master</td>
+						</tr>
+					</table>
+				</div><!--/.container-->
+			</section>
 
-				<!-- CONTACT FORM -->
-				<section>
-					<div class="container">
-						<img src="images/red-stapler-50.png" alt="red stapler"><h2>Contact Me! I <3 to fix printers!</h2>
+			<!-- CONTACT FORM -->
+			<section>
+				<div class="container">
+					<div class="form-wrapper">
+						<h2>Contact Me! I <3 to fix printers!</h2>
 						<form>
 							<div>
 								<label for="name">Name</label>
-								<input type="text" name="name" id="name">
+								<input type="text" name="name" id="name" />
 							</div>
 
 							<div>
 								<label for="emailEmail">Email</label>
-								<input type="email" name="email" id="email">
+								<input type="email" name="email" id="email" />
 							</div>
 
 							<div>
 								<label for="subject">Subject</label>
-								<input type="text" name="subject" id="subject">
+								<input type="text" name="subject" id="subject" />
 							</div>
 
 							<div>
 								<label for="message">Message</label>
-								<textarea name="messaage" id="message" cols="30" rows="10" maxlength="1000"></textarea>
+								<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
 							</div>
 
 							<button type="reset">Reset</button>
 							<button type="submit">Send!</button>
 						</form>
 					</div>
-				</section>
+				</div>
+			</section>
 
-			</main>
 		</div><!--/.sfooter-content-->
 
 		<footer>
 			<div class="container">
-				<img src="images/at-sign.gif" alt="netscape Navigator"><h4>Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
+				<h4>Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
 			</div>
 		</footer>
 	</body>
